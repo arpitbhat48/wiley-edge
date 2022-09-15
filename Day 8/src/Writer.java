@@ -1,11 +1,4 @@
-import java.util.*;
- 
-/**
- * Writer.java
- * This thread randomly read an element from a shared data structure
- * @author www.codejava.net
- */
-public class Writer extends Thread {
+ public class Writer extends Thread {
     private ReadWriteList<Integer> sharedList;
     private int number;
  
