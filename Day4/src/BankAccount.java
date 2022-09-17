@@ -1,7 +1,7 @@
 
 public class BankAccount {
 	int accountId;
-	String accountHolderName, accountType;
+	String accountHolderName;
 	double openingBalance, currentBalance;
 	static double totalBalance;
 	boolean valid;
