@@ -1,4 +1,4 @@
-public class DemoSalary {
+public class SalaryDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -33,14 +33,5 @@ public class BankAccount {
 		return amount * years * interestRate;
 	}
 
-	public static void main(String[] args) throws DepositAmountException {
-		BankAccount b1 = new BankAccount(101, "Arpit", "SAVINGS");
-		BankAccount b2 = new BankAccount(102, "Apoorva", "CURRENT");
-		BankAccount b3 = new BankAccount(103, "John Doe", "CURRENT");
-
-		System.out.println(b1.calculateTotalInterest(5000, 5));
-		System.out.println(b2.calculateTotalInterest(5000, 5));
-		System.out.println(b3.calculateTotalInterest(0, 15));
-	}
 
 }
