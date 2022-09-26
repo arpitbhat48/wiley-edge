@@ -21,10 +21,10 @@ Deserialization:
     	ObjectInputStream 
     	
 Steps: Serialization
-1. Create a class that implements serializable
+1. Create a class that implements Serializable
 2. Create object of that class
 3. Open any file in the write mode, using FileOutputStream 
-4. Pas the fileOuputStream to the OBjectOutputStream 
+4. Pass the fileOuputStream to the OBjectOutputStream 
 5. Invoke the writeObject() method of ObjectOutputStream, and pass the object that you want to serialize. 
 
 
