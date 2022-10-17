@@ -14,9 +14,10 @@ class CustomerUtility implements Comparator<Customer> {
 		return c2.getTotalBill() > (int) c1.getTotalBill() ? 1 : -1;
 	}
 
-	public static void displayAll(ArrayList<Customer> customers) {
+	public static ArrayList<Customer> displayAll(ArrayList<Customer> customers) {
 		for (Customer c : customers)
 			c.display();
+		return customers;
 	}
 
 	public static void printConditionally(ArrayList<Customer> customers, Condition condition) {
