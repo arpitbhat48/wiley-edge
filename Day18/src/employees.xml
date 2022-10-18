@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- bean definitions here -->
+	<!-- setter injection <bean id="emp1" class="com.model.Employee"> <property 
+		name="empId" value="1"/> <property name="empName" value="John Doe"/> <property 
+		name="salary" value="1000"/> <property name="dept" value="Sales"/> </bean> -->
+	<!-- Constructor injection -->
+	<bean id="emp1" class="com.model.Employee">
+		<constructor-arg value="1" />
+		<constructor-arg value="John Doe" />
+		<constructor-arg value="Sales" />
+	</bean>
+
+
+</beans>
